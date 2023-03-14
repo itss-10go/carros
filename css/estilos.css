@@ -1,0 +1,198 @@
+ body {
+  background-color: #f4f4f4;
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global */
+.contenedor {
+  margin: auto;
+  overflow: hidden;
+  width: 80%;
+}
+
+/* Header */
+header {
+  background-color: #35424a;
+  border-bottom: 3px;
+  solid: #e8491d;
+  color: #fff;
+  min-height: 70px;
+  padding-top: 20px
+}
+
+header a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+.oscuro {
+  background-color: #35424a;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+header li {
+  display: inline;
+  float: left;
+  padding: 0px 20px 0px 20px;
+}
+
+header #marca {
+  float: left;
+}
+
+header #marca h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 15px;
+}
+
+header .resaltado, header .actual a {
+  color: #e8494d;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #fff;
+  font-weight:
+}
+
+/* Presentacion */
+#imagen_presentacion {
+  background: url("../imagenes/porscheFondo.jpg") 0 -465px no-repeat;
+  color: #fff;
+  min-height: 450px;
+  text-align: center;
+}
+
+#imagen_presentacion h1 {
+  font-size: 55px;
+  margin-bottom: 10px;
+  margin-top: 100px;
+}
+
+#imagen_presentacion p {
+  font-size: 20px;
+}
+
+/* Noticias */
+#noticias {
+  background-color: #35424a;
+  color: #fff;
+  padding: 15px;
+}
+
+#noticias h1 {
+  float: left;
+}
+
+#noticias form {
+  float: right;
+  margin-top: 15px;
+}
+
+#noticias input[type="email"] {
+  height: 25px;
+  padding: 4px;
+  width: 250px;
+}
+
+.boton_1 {
+  background-color: #e8491d;
+  border: 0;
+  color: #fff;
+  height: 38px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  padding: 0 20px;
+}
+
+/* Cajas */
+#cajas {
+  margin-top: 20px;
+}
+
+#cajas .caja {
+float: left;
+padding: 10px;
+text-align: center;
+width: 30%;
+}
+
+#cajas .caja img {
+  width: 90px;
+}
+
+/* Sidebar */
+aside#sidebar {
+  float: right;
+  margin-top: 10px;
+  width: 30%;
+}
+
+aside#sidebar .cita input, aside#sidebar .cita textarea {
+  padding: 5px;
+  width: 90%;
+}
+
+/* Columna Principal */
+article#columna_principal {
+  float: left;
+  width: 65%;
+}
+
+/* Servicios */
+ul#servicios li {
+  background-color: #e6e6e6;
+  border: 1px solid #ccc;
+  list-style: none;
+  margin-bottom: 5px;
+  padding: 20px;
+}
+
+/* Pie */
+footer {
+  background-color: #e8491d;
+  color: #fff;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Media Queries */
+@media(max-widht: 768px) {
+  header #marca, header nv, header nav li, #noticias h1,
+  #noticias form, #cajas .caja, article#columna_principal,
+  aside#sidebar {
+    float: none;
+    text-align: center;
+    width: 100px;
+  }
+  header {
+    padding-bottom: 20px;
+  }
+  #imagen_presentacion h1 {
+    margin-top: 40px;
+  }
+  #noticias button, .cita button {
+    display: block;
+    width: 100px;
+  }
+  #noticias form input[type="email"], .cita input, .cita textarea {
+
+  }
+}
